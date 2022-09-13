@@ -1,3 +1,9 @@
+# Motiva - Avaliação Sistemas Distribuídos
+
+*Tema:* Página Web com frases motivadoras.
+
+*Funções:* Listar frases e cadastrar comentários sobre elas.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
