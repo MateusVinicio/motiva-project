@@ -3,11 +3,11 @@ import { GetStaticProps } from "next";
 import { prisma } from "../../lib/prisma";
 import { Phrase } from "@prisma/client";
 
-interface PhrasesProps {
+interface TopPhrasesProps {
   phrases: Array<Phrase>;
 }
 
-export default function Phrases({ phrases }: PhrasesProps) {
+export default function TopPhrases({ phrases }: TopPhrasesProps) {
   return (
     <div>
       <h1>Frases</h1>
@@ -28,7 +28,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   return {
     props: {
-        phrases,
+      phrases,
     },
     revalidate: 10,
   };
