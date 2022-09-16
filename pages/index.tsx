@@ -17,7 +17,7 @@ export default function PagePhrase({ data }: PhraseProps) {
         style={{ width: 800 }}
       >
         <h3>
-          <p>"{data.description}"</p>
+          <p>&ldquo;{data.description}&rdquo;</p>
         </h3>
       </Card>
 
