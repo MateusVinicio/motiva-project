@@ -42,7 +42,7 @@ export default function PageLayout({ children }: PageLayoutProps) {
       <Header style={{ background: "#fff" }}>
         <Menu items={items} mode="horizontal" theme="light" />
       </Header>
-      <Content style={{ padding: "0 50px" }}>{children}</Content>
+      <Content style={{ padding: "50px 50px" }}>{children}</Content>
       <Footer>Footer</Footer>
     </Layout>
   );
